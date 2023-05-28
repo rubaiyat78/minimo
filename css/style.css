@@ -63,7 +63,7 @@ header {
 .banner {
     padding: 50px 0;
 }
-.b-img {}
+/* .b-img {} */
 .b-img img {
     width: 100%;
 }
@@ -206,7 +206,7 @@ footer {
     overflow: hidden;
     /* border: 1px solid red; */
 }
-.page ul {}
+/* .page ul {} */
 .page ul li {
     float: left;
     list-style: none;
