@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body,h1,h2,h3,h4,h5,h6,p,span,button,input{
+	font-family: 'Playfair Display', serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	display:flow-root;
+}
+.nav{
+	width: 100%;
+	float: left;
+	padding: 45px 0px;
+}
+.logo{
+width: 20%;
+float: left;
+}
+.menu{
+width: 80%;
+float: left;
+text-align: right
+}
+.menu ul li{
+	display: inline-block;
+    list-style: none;
+    margin-left: 60px;
+}
+.menu ul li a{
+    color: #b4ad9e;   
+}
+.banner{
+	width: 100%;
+	display:flow-root;
+}
+.description{
+	padding: 45px;
+}
+.cat{
+	color: #b4ad9e; 
+}
+.title{
+	margin: 30px 0px;
+}
+.comment{
+	color: #b4ad9e;
+}
+.description-box{
+	margin-bottom: 40px;
+}
+.gallery{
+	width: 100%;
+	display:flow-root;
+}
+.post{
+	padding: 45px;
+}
+.post-galery{
+	width: 100%;
+	float: left;
+}
+.item-1{
+	width: 50%;
+	float: left;
+}
+.item-2{
+	width: 50%;
+	float: right;
+}
+.post-gallery .cat{
+	margin-top: 20px;
+}
+.item{
+	padding: 30px;
+}
+.subcribe{
+	width: 100%;
+	display:flow-root;
+	background-color: #f0f0f0;
+	text-align: center;
+	padding: 100px 0px; 
+}
+form{
+	margin-top: 40px;
+	position: relative;
+}
+form input{
+	background: transparent;
+    padding: 20px 0px;
+    margin-top: 0px;
+    width: 385px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+form input:focus{
+	outline: none;
+}
+form i{
+	position: absolute;
+	top: 20px;
+	right: 380px;
+}
+.load-more{
+	text-align:center;
+}
+.load-more button{
+	padding: 18px 20px;
+	margin-bottom: 40px;
+	width: 200px;
+	font-size: 20px;
+	background: transparent;
+	border: none;
+	border: 1px solid black;
+	color: #b4ad9e; 
+}
+.footer{
+	width: 100%;
+	display: flow-root;
+	padding: 60px 0px;
+	background-color: #f0f0f0;
+}
+.footer-info{
+	width: 100%;
+	float:left;
+}
+.footer-menu{
+	width: 50%;
+	float:left;
+	text-align: left;
+}
+.footer-icon{
+	width: 50%;
+	float:right;
+	text-align: right;
+}
+.footer ul li{
+	display: inline-block;
+    list-style: none;
+}
+.footer ul li a{
+	color: black;
+}
+.footer-menu ul li{
+	margin-right: 30px;
+}
+.footer-icon ul li{
+	margin-left: 30px;
+}

@@ -1,0 +1,13 @@
+color:
+dark-ash - #626262
+black - #000000
+c_light - #b4ad9e
+light ash - f0f0f0
+
+
+
+
+font-family:
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Inconsolata', monospace;
